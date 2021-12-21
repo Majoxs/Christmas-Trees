@@ -44,6 +44,10 @@ h1, h2 {
   letter-spacing: 0.01em;
 }
 
+h1, h2, h3, p {
+  margin: 0;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -64,11 +68,29 @@ button {
 }
 
 .container {
-  max-width: 1310px;
+  max-width: 1390px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 50px;
 }
 
 .hide {
   display: none;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    padding: 0 42px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 39px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 0 10px;
+  }
 }
