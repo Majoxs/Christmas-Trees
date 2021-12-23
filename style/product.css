@@ -70,6 +70,9 @@
   letter-spacing: 0.04em;
   color: var(--color-main);
   background-color: transparent;
+  transition-property: background-color, border-color, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .product__button_order {
